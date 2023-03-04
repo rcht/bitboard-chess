@@ -1,0 +1,29 @@
+#pragma once
+
+enum Piece {
+    
+    NONE, 
+
+    WHITE_PAWN, WHITE_KNIGHT, 
+    WHITE_BISHOP, WHITE_ROOK, 
+    WHITE_QUEEN, WHITE_KING,
+
+    BLACK_PAWN, BLACK_KNIGHT, 
+    BLACK_BISHOP, BLACK_ROOK, 
+    BLACK_QUEEN, BLACK_KING,
+
+    PIECE_COUNT
+};
+
+enum PieceType {
+
+    PIECE_NONE, PIECE_PAWN, PIECE_KNIGHT, 
+    PIECE_BISHOP, PIECE_ROOK, PIECE_QUEEN,
+    PIECE_KING,
+
+    PIECE_TYPE_COUNT
+};
+
+enum MoveType {
+    QUIET, CAPTURE, PROMOTE
+};
